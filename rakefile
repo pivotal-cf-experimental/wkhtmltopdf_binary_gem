@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rubygems/package_task'
 
 spec = Gem::Specification.new do |s| 
-  s.name = "wkhtmltopdf-binary"
+  s.name = "wkhtmltopdf-binary-cf"
   s.version = "0.12.2"
   s.author = "Zakir Durumeric"
   s.email = "zakird@gmail.com"
