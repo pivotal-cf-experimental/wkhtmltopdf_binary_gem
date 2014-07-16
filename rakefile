@@ -3,9 +3,9 @@ require 'rubygems/package_task'
 
 spec = Gem::Specification.new do |s| 
   s.name = "wkhtmltopdf-binary-cf"
-  s.version = "0.12.2"
-  s.author = "Zakir Durumeric"
-  s.email = "zakird@gmail.com"
+  s.version = "0.12.3"
+  s.author = "Matthew Boedicker, Brenda Chan"
+  s.email = "cf-toolsmiths@pivotallabs.com"
   s.platform = Gem::Platform::RUBY
   s.summary = "Provides binaries for WKHTMLTOPDF project in an easily accessible package."
   s.files = FileList["{bin}/**/*"].to_a
